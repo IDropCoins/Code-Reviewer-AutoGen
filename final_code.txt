@@ -1,0 +1,17 @@
+def factorial(n):
+    """Calculate and print the factorial of a given number n."""
+    if n < 0:
+        print("Factorial is not defined for negative numbers.")
+        return
+    elif n == 0 or n == 1:
+        print(f"The factorial of {n} is 1.")
+        return
+    
+    result = 1
+    for i in range(2, n + 1):
+        result *= i
+
+    print(f"The factorial of {n} is {result}.")
+
+# Example of usage:
+factorial(5)

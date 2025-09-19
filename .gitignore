@@ -1,0 +1,33 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.venv/
+ENV/
+env/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints
+
+# VSCode / IDE configs
+.vscode/
+.idea/
+
+# Logs (but keep chat_log.txt and final_code.txt)
+*.log
+
+# Autogen sandbox (code execution work_dir)
+sandbox/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
